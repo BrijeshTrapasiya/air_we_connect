@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class GetHelpController extends GetxController with GetSingleTickerProviderStateMixin{
+class GetHelpController extends GetxController
+    with GetSingleTickerProviderStateMixin {
+  final TextEditingController subjectController = TextEditingController();
+  final TextEditingController detailController = TextEditingController();
 
   late TabController tabController;
 
