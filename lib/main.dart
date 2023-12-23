@@ -1,4 +1,5 @@
 import 'package:airweconnect/config/root_binding.dart';
+import 'package:airweconnect/screens/get_help.dart';
 import 'package:airweconnect/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -16,9 +17,9 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       initialBinding: RootBinding(),
       theme: ThemeData(
-fontFamily: 'poppins'
+      fontFamily: 'poppins'
       ),
-      home: const SplashScreen(),
+      home: const GetHelpScreen(),
     );
   }
 }
